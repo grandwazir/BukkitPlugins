@@ -1,0 +1,26 @@
+name: MCDocsPlus
+main: no.rtrd.bukkit.mcdocsplus.Main
+version: 1.1.2
+description: A continuation of MCDocs
+author: RTRD
+website: http://wiki.rtrd.no/index.php?title=MCDocsPlus
+commands:
+  mcdp:
+    description: Standard command MCDocsPlus
+    usage: /<command> help
+permissions:
+  mcdocsplus.*:
+    description: Gives access to everything
+    children:
+      mcdocsplus.admin: true
+      mcdocsplus.motd: true
+      mcdocsplus.read: true
+  mcdocsplus.admin:
+    description: Gives access to all commands
+    default: false
+  mcdocsplus.motd:
+    description: Shows the motd on login
+    default: true
+  mcdocsplus.read:
+    description: The following node must be used to allow player access to the specified TXT file
+    default: true
