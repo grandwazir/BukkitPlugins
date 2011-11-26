@@ -360,7 +360,7 @@ public class Listener extends PlayerListener {
 			
 			//Basics
 			String fixedLine = l.replace("%name", player.getDisplayName());
-			fixedLine = fixedLine.replace("%time", time.getTime());
+			fixedLine = fixedLine.replace("%time", time.getTime(player));
         	fixedLine = fixedLine.replace("%onlinenow", onlineCount());
         	fixedLine = fixedLine.replace("%world", player.getWorld().getName());
         	fixedLine = fixedLine.replace("%ip", player.getAddress().getAddress().getHostAddress());

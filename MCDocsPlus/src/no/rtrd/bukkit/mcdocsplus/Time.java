@@ -29,13 +29,14 @@ import java.text.Format;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 
 public class Time {
-    public String getTime() {
-    	Bukkit.getServer().getWorld("world").getTime();
-        Date now = new Date();
-        Format formatter = new SimpleDateFormat(Listener.tFormat);
-        String time = (formatter.format(now));
-        return time;
+    public String getTime(Player player) {
+    	player.getWorld().getTime();
+      Date now = new Date();
+      Format formatter = new SimpleDateFormat(Listener.tFormat);
+      String time = (formatter.format(now));
+      return time;
     }
 }

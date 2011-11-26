@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="C:/Users/RTRD/Desktop/MCDocsPlus Files/craftbukkit-0.0.1-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="C:/Users/RTRD/Desktop/MCDocsPlus Files/PermissionsBukkit-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/RTRD/Desktop/MCDocsPlus Files/SuperpermsBridge-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/RTRD/Desktop/MCDocsPlus Files/Register-1.5.jar"/>
@@ -12,5 +11,6 @@
 	<classpathentry kind="lib" path="C:/Users/RTRD/Desktop/MCDocsPlus Files/iConomy4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/RTRD/Desktop/MCDocsPlus Files/iConomy6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/RTRD/Desktop/MCDocsPlus Files/RealShop.jar"/>
+	<classpathentry kind="lib" path="/home/james/Desktop/bukkit-1.8.1-R5-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
